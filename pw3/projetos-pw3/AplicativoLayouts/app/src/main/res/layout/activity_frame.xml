@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtNome"
+        android:layout_marginBottom="@dimen/margem"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_marginLeft="@dimen/margem"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/margem"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_marginLeft="@dimen/margem"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margem"
+        android:layout_marginTop="@dimen/margem"
+        android:layout_marginBottom="@dimen/margem"
+        android:text="@string/btnLogin" />
+</FrameLayout>

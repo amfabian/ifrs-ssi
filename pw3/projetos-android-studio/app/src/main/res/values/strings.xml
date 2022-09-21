@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Café Cultura</string>
+    <string name="nomeCafe">Nome do Café</string>
+    <string name="desc">Descricao</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="preco">Preco</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="excluir">excluir</string>
+    <string name="editar">editar</string>
+</resources>

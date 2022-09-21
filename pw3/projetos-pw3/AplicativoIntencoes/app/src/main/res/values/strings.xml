@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppIntencoes</string>
+    <string name="mapa">Abrindo um mapa</string>
+    <string name="site">Abrindo um site</string>
+    <string name="navegador">Abrindo o navegador para fazer busca</string>
+    <string name="email">Enviando e-mail</string>
+</resources>

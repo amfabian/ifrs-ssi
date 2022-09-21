@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppLayouts</string>
+    <string name="btnLogin">Acessar</string>
+    <string name="txtNome">Nome</string>
+    <string-array name="itens_lista">
+        <item>ConstraintLayout</item>
+        <item>LinearLayout</item>
+        <item>RelativeLayout</item>
+        <item>FrameLayout</item>
+        <item>GridLayout</item>
+    </string-array>
+</resources>

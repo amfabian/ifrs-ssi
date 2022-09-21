@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppComponentes</string>
+    <string name="titulo">Componentes Básicos</string>
+    <string name="spinner">Usando spinner</string>
+    <string name="checkbox">Selecione a(s) Opção(ões):</string>
+    <string name="op1">Opção 1</string>
+    <string name="op2">Opção 2</string>
+    <string name="toggle">Você já sabia usar o componente toggle?</string>
+    <string name="switchComp">Você já sabia usar o componente switch?</string>
+    <string name="txtSelecionado">Bebida selecionada no </string>
+    <string name="radiobutton">Selecione uma opção:</string>
+
+    <string-array name="itensSpinner">
+        <item>Café</item>
+        <item>Café com leite</item>
+        <item>Pingado</item>
+        <item>Expresso</item>
+        <item>Refrigerante</item>
+        <item>Água</item>
+    </string-array>
+</resources>
