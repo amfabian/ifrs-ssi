@@ -58,7 +58,7 @@ Separa a arquitetura do Software em três camadas:
   
 - Separa os arquivos de Interface do Usuário.  
   
-- Falta de restriçãod e acesso nos métodos do Controller.
+- Falta de restrição de acesso nos métodos do Controller.
 
 # Exemplos  
 

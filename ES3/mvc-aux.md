@@ -1,4 +1,4 @@
-# Características do modelo selecionado
+# Características do modelo
 Principal ideia do padrão arquitetural MVC é a separação dos conceitos
 Separa a arquitetura do Software em três camadas  
 * Model
@@ -26,6 +26,12 @@ Separa a arquitetura do Software em três camadas
 
 # Quando aplicar
 
+- Quando se deseja facilitar a manutenção do código e aumentar a sua reutilização.    
+
+- Pode ser utilizado em diversos tipos de projetos e independe da linguagem.  
+
+- Bastante difundido no mercado.  
+
 # Vantagens  
 
 - Segurança: Controller atua como filtro não deixando erro chegar no model  
@@ -44,6 +50,7 @@ Separa a arquitetura do Software em três camadas
 
 # Exemplo(s) de software(s) que utiliza(m) o padrão de arquitetura selecionado
 
-# Caso o grupo aplique ele no trabalho, mostrar o modelo projetado  
+- Softwares desenvolvidos com Ruby on Rails, Struts, Spring MVC, Laravel, Django, Etc...
+
 
 # Referências  
