@@ -1,0 +1,50 @@
+@startuml "Receita Bolo Chocolate"
+
+
+
+actor cozinheiro
+
+
+rectangle "Receita Bolo"{
+    cozinheiro -- (Coloque a farinha de trigo) : " "
+    (Coloque a farinha de trigo) --> (Coloque o açucar) : " "
+
+    (Coloque o açucar) --> (Coloque o chocolate em pó) : " "
+
+    (Coloque o chocolate em pó) --> (Coloque o fermento) : " "
+    (Coloque o fermento) --> (Coloque o bicarbonato) : " "
+    (Coloque o bicarbonato) --> (Misture) : " "
+    (Misture) --> (Junte o óleo, ovos e agua fervente) : " "
+    (Junte o óleo, ovos e agua fervente) --> (Misture bem) : " "
+    (Misture bem) --> (Despeje a massa em uma forma) : " "
+
+    cozinheiro --> (unte a forma) : " "
+    (unte a forma) --> (polvilhe farinha de trigo na forma) : " "
+    (polvilhe farinha de trigo na forma) --> (Despeje a massa em uma forma) : " "
+
+    cozinheiro -- (pré aqueça o forno em 180 graus) : " "
+
+    (Despeje a massa em uma forma) --> (Coloque a forma no forno) : " "
+    (pré aqueça o forno em 180 graus) --> (Coloque a forma no forno) : " "
+
+    
+        
+}
+
+
+rectangle "Ingredientes" {
+
+    (2 xícaras chá de farinha de trigo)
+    (1 e meia xícara chá de açúcar)
+    (xícara chá de Chocolate em Pó)
+    (1 colher sopa de fermento em pó)
+    (meia colher chá de bicarbonato de sódio)
+    (1 xícara chá de óleo)
+    (3 ovos)
+    (2 xícaras chá de água fervente)
+    }
+
+
+
+
+@enduml
