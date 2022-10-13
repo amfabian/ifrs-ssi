@@ -1,0 +1,23 @@
+@startuml diagrama de casos de uso
+left to right direction
+
+
+actor usuario
+
+
+rectangle "Sigaa"{
+    usuario -- (Matrícula Online) : " "
+    usuario -- (Emitir Histórico) : " "
+    usuario -- (Emitir Atestado de Matricula) : " " 
+    usuario -- (Trancamento de Mátricula) : " " 
+    usuario -- (Consultar Minhas Notas) : " " 
+    usuario -- (Consultar Indices Academicos) : " " 
+    usuario -- (Estágio)
+    (Estágio) <.. (Mural de Vagas) : " <<extend>>"
+    (Estágio) <.. (Gerenciar Estágios) : " <<extend>>"
+    (Matrícula Online) <.. (Realizar Matrícula) : " <<extend>>" 
+    (Trancamento de Mátricula) <.. (Trancar) : " <<extend>>"
+        
+}
+
+@enduml

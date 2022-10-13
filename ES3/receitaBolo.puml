@@ -3,6 +3,7 @@
 
 
 actor cozinheiro
+actor ajudante
 
 
 rectangle "Receita Bolo"{
@@ -18,11 +19,11 @@ rectangle "Receita Bolo"{
     (Junte o óleo, ovos e agua fervente) --> (Misture bem) : " "
     (Misture bem) --> (Despeje a massa em uma forma) : " "
 
-    cozinheiro --> (unte a forma) : " "
+    ajudante -- (unte a forma) : " "
     (unte a forma) --> (polvilhe farinha de trigo na forma) : " "
     (polvilhe farinha de trigo na forma) --> (Despeje a massa em uma forma) : " "
 
-    cozinheiro -- (pré aqueça o forno em 180 graus) : " "
+    ajudante -- (pré aqueça o forno em 180 graus) : " "
 
     (Despeje a massa em uma forma) --> (Coloque a forma no forno) : " "
     (pré aqueça o forno em 180 graus) --> (Coloque a forma no forno) : " "
@@ -33,7 +34,8 @@ rectangle "Receita Bolo"{
 
 
 rectangle "Ingredientes" {
-
+    
+    
     (2 xícaras chá de farinha de trigo)
     (1 e meia xícara chá de açúcar)
     (xícara chá de Chocolate em Pó)
@@ -42,9 +44,10 @@ rectangle "Ingredientes" {
     (1 xícara chá de óleo)
     (3 ovos)
     (2 xícaras chá de água fervente)
+    
     }
 
-
+ 
 
 
 @enduml
