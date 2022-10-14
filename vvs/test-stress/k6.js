@@ -3,7 +3,7 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 export const options = {
-    vus: 10,
+    vus: 50,
     duration: '10s',
     thresholds: {
         // Como teste, os erros de HTTP devem ser menor do que 5%
