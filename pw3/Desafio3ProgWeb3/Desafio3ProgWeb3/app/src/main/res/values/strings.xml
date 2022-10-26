@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">Desafio3ProgWeb3</string>
-    <string name="title_activity_main2">MainActivity2</string>
+    <string name="app_name">Organic App</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="text_home">HOMEEEEEE1!!11</string>
+    <string name="excluir">excluir</string>
+    <string name="editar">editar</string>
+    <string name="nomeProduto">Nome do Produto</string>
+    <string name="desc">Descricao</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="preco">Preco</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>

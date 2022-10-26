@@ -5,9 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.widget.ProgressBar;
 
-import com.google.android.material.snackbar.Snackbar;
+import com.example.desafio3progweb3.view.HomeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
     private int progressStatus = 0;
     private Handler handler = new Handler();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         Intent intencao = new Intent(this, HomeActivity.class);
+
         // Start long running operation in a background thread
         new Thread(new Runnable() {
             public void run() {
@@ -49,5 +50,11 @@ public class MainActivity extends AppCompatActivity {
         }).start();
 
 
+    }
+
+
+    public void enterHome(View view) {
+        Intent intencao = new Intent(this, HomeActivity.class);
+         startActivity(intencao);
     }
 }
